@@ -1,16 +1,8 @@
 cask "seenote" do
-  version "0.4.0"
+  version "0.5.0"
+  sha256 "39a8d85fcd1559be35a471a726ff2286450582455992e3485e6424b5042829bf"
 
-  on_arm do
-    sha256 "ea04a8538aaf14f6fa0ca25c4b0173ec51fdd2453a68fcba7667b58e2424a38d"
-    url "https://github.com/LukeHearon/SeeNote/releases/download/v#{version}/SeeNote_#{version}_aarch64.dmg"
-  end
-
-  on_intel do
-    sha256 "d29f7098269de9022600593730acb4d8107c7cd7c7aa669c414a666c92d98fd7"
-    url "https://github.com/LukeHearon/SeeNote/releases/download/v#{version}/SeeNote_#{version}_x64.dmg"
-  end
-
+  url "https://github.com/LukeHearon/SeeNote/releases/download/v#{version}/SeeNote-macOS.dmg"
   name "SeeNote"
   desc "Audio/video annotation tool for building ML training datasets"
   homepage "https://github.com/LukeHearon/SeeNote"
