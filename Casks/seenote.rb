@@ -1,6 +1,6 @@
 cask "seenote" do
-  version "0.7.0"
-  sha256 "76c548378590e9db4643057f1255cd249375f049d876dd580f570703ab48ca5a"
+  version "0.16.2"
+  sha256 "fcca6c4ad8adc4be078087ca90f14212bb4c6030e21614b5aa8e4d582974e65b"
 
   url "https://github.com/LukeHearon/SeeNote/releases/download/v#{version}/SeeNote-macOS.dmg"
   name "SeeNote"
